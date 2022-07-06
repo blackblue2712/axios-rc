@@ -53,8 +53,8 @@ module.exports = {
                 campaign_events: [],
                 on_reporting: false,
                 ref_group_ids: [],
-                subscriptions: { ids: ["0788596336164347038"] },
-                subscription_ids: ["0788596336164347038"],
+                subscriptions: { ids: [""] },
+                subscription_ids: [""],
                 target: "",
                 ui_definition: "empty",
                 join: false,
@@ -73,7 +73,7 @@ module.exports = {
 
       return res.data.data[0];
 
-      // {"data":[{"type":"lists","id":"0793042437894313100","attributes":{"type":"Lists::List","target":"contact","name":"list-aaa","description":"aaa","group_size":0,"total_contacts":0,"subscribed":0,"mailable":0,"removable":true,"visible":true,"css_class":"fa-file-text-o","ui_definition":"","subscription":{"id":""},"subscriptions":{"ids":["0788596336164347038"]},"ref_groups":null,"ref_group_ids":["0788596336164347038"],"created_at":"2022-07-05T13:20:15.424906276Z","updated_at":"2022-07-05T13:20:15.424906276Z","created_by":"788632041196362917","update_by":"788632041196362917","system_default":false,"definition":[],"test_list":false}}],"meta":{"correlation_id":"3514e120-fc65-11ec-a3d9-7fb7c16c3037"}}
+      // {"data":[{"type":"lists","id":"0793042437894313100","attributes":{"type":"Lists::List","target":"contact","name":"list-aaa","description":"aaa","group_size":0,"total_contacts":0,"subscribed":0,"mailable":0,"removable":true,"visible":true,"css_class":"fa-file-text-o","ui_definition":"","subscription":{"id":""},"subscriptions":{"ids":[""]},"ref_groups":null,"ref_group_ids":[""],"created_at":"2022-07-05T13:20:15.424906276Z","updated_at":"2022-07-05T13:20:15.424906276Z","created_by":"788632041196362917","update_by":"788632041196362917","system_default":false,"definition":[],"test_list":false}}],"meta":{"correlation_id":"3514e120-fc65-11ec-a3d9-7fb7c16c3037"}}
     } catch (error) {
       console.log(error.response.data.errors);
       return false;
@@ -108,8 +108,8 @@ module.exports = {
           campaign_events: [],
           on_reporting: false,
           ref_group_ids: [],
-          subscriptions: { ids: ["0788596336164347038"] },
-          subscription_ids: ["0788596336164347038"],
+          subscriptions: { ids: [""] },
+          subscription_ids: [""],
           target: "",
           join: false,
           visible: true,
@@ -124,7 +124,7 @@ module.exports = {
 
       return true;
 
-      //   {"id":"0793042437894313100","type":"Lists::List","target":"contact","name":"list-aaa","group_size":0,"description":"aaa","removable":true,"visible":true,"css_class":"fa-file-text-o","ui_definition":"","subscription":{"id":""},"ref_groups":null,"ref_group_ids":["0788596336164347038"],"created_at":"2022-07-05T13:20:15.424Z","updated_at":"2022-07-05T13:26:10.942486552Z","created_by":"788632041196362917","test_list":false,"system_default":false,"updated_by":"788632041196362917","definition":[{"excludeContactIds":[],"includeContactIds":[],"listId":"0793042437894313100","selectionCoverage":"all","selectionType":"all","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false},{"excludeContactIds":[],"includeContactIds":["0793006137103357055"],"listId":"0683552940937449576","selectionCoverage":"include","selectionType":"","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false}]}
+      //   {"id":"0793042437894313100","type":"Lists::List","target":"contact","name":"list-aaa","group_size":0,"description":"aaa","removable":true,"visible":true,"css_class":"fa-file-text-o","ui_definition":"","subscription":{"id":""},"ref_groups":null,"ref_group_ids":[""],"created_at":"2022-07-05T13:20:15.424Z","updated_at":"2022-07-05T13:26:10.942486552Z","created_by":"788632041196362917","test_list":false,"system_default":false,"updated_by":"788632041196362917","definition":[{"excludeContactIds":[],"includeContactIds":[],"listId":"0793042437894313100","selectionCoverage":"all","selectionType":"all","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false},{"excludeContactIds":[],"includeContactIds":["0793006137103357055"],"listId":"0683552940937449576","selectionCoverage":"include","selectionType":"","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false}]}
     } catch (error) {
       console.log(error.response.data.errors);
       return false;
@@ -155,7 +155,7 @@ module.exports = {
 
       return res.data
 
-      //   {"id":"0793042437894313100","type":"Lists::List","target":"contact","name":"list-aaa","group_size":0,"description":"aaa","removable":true,"visible":true,"css_class":"fa-file-text-o","ui_definition":"","subscription":{"id":""},"ref_groups":null,"ref_group_ids":["0788596336164347038"],"created_at":"2022-07-05T13:20:15.424Z","updated_at":"2022-07-05T13:26:10.942486552Z","created_by":"788632041196362917","test_list":false,"system_default":false,"updated_by":"788632041196362917","definition":[{"excludeContactIds":[],"includeContactIds":[],"listId":"0793042437894313100","selectionCoverage":"all","selectionType":"all","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false},{"excludeContactIds":[],"includeContactIds":["0793006137103357055"],"listId":"0683552940937449576","selectionCoverage":"include","selectionType":"","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false}]}
+      //   {"id":"0793042437894313100","type":"Lists::List","target":"contact","name":"list-aaa","group_size":0,"description":"aaa","removable":true,"visible":true,"css_class":"fa-file-text-o","ui_definition":"","subscription":{"id":""},"ref_groups":null,"ref_group_ids":[""],"created_at":"2022-07-05T13:20:15.424Z","updated_at":"2022-07-05T13:26:10.942486552Z","created_by":"788632041196362917","test_list":false,"system_default":false,"updated_by":"788632041196362917","definition":[{"excludeContactIds":[],"includeContactIds":[],"listId":"0793042437894313100","selectionCoverage":"all","selectionType":"all","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false},{"excludeContactIds":[],"includeContactIds":["0793006137103357055"],"listId":"0683552940937449576","selectionCoverage":"include","selectionType":"","totalContactsExcluded":0,"totalContactsSelected":0,"selected":false}]}
     } catch (error) {
         console.log("error occur when sent mail", error)
     //   console.log(error.response.data.errors);

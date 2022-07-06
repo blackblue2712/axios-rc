@@ -53,7 +53,7 @@ app.get("/", async function (req, res) {
 
 app.get("/sendTest", async function (req, res) {
     console.log("send email test");
-    const resp = await publishEmail("0793255026964305275")
+    const resp = await publishEmail("")
 
     res.status(200).send(resp);
 })
