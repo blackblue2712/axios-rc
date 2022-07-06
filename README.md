@@ -3,6 +3,9 @@
 - npm run dev
 
 ### REQUEST
+- Before all, you need to copy your cookie and update in `/pkg/helper.js`
+    ![IMG](https://f5-zpcloud.zdn.vn/1447589949035534044/ea3bf4aa0d2dce73973c.jpg)
+    
 - `/?email=<encodeURIComponent(your_email)>`: Create contact => list => update list add contact => instant campaign. 
 
     - You must change ```document_id``` to one of **YOUR DOCUMENTS**
